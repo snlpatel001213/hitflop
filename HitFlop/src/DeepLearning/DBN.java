@@ -189,7 +189,6 @@ public class DBN {
 
 		// construct DNN.DBN
 		DBN dbn = new DBN(train_N, n_ins, hidden_layer_sizes, n_outs, n_layers, rng);
-		System.out.println(dbn);
 		// pretrain
 		dbn.pretrain(train_X, pretrain_lr, k, pretraining_epochs);
 
