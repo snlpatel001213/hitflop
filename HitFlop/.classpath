@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="owner.project.facets" value="java"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" path=".apt_generated">
+		<attributes>
+			<attribute name="optional" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Decepticonn/workspace/HitFlop/jsoup-1.8.3.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Decepticonn/Desktop/neuroph-2.92/neuroph-adapters-2.92.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Decepticonn/Desktop/neuroph-2.92/neuroph-contrib-2.92.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Decepticonn/Desktop/neuroph-2.92/neuroph-core-2.92.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Decepticonn/Desktop/neuroph-2.92/neuroph-imgrec-2.92.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Decepticonn/Desktop/neuroph-2.92/neuroph-ocr-2.92.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Decepticonn/Desktop/neuroph-2.92/neuroph-samples-2.92.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Users/Decepticonn/Downloads/neuralnetworks-snapshot.jar"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
