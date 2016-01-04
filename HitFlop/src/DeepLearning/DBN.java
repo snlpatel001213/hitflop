@@ -185,7 +185,7 @@ public class DBN {
 				{0, 1, 0},
 				{0, 0, 2},
 		};
-
+		
 
 		// construct DNN.DBN
 		DBN dbn = new DBN(train_N, n_ins, hidden_layer_sizes, n_outs, n_layers, rng);
@@ -210,7 +210,7 @@ public class DBN {
 		for(int i=0; i<test_N; i++) {
 			dbn.predict(test_X[i], test_Y[i]);
 			for(int j=0; j<n_outs; j++) {
-				System.out.print(test_Y[i][j] + " ");
+				System.out.print(test_Y[i][j] + "=");
 			}
 			System.out.println();
 		}
